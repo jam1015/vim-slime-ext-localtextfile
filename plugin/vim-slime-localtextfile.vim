@@ -8,14 +8,14 @@ function! SlimeFooPluginConfig(config)
 endfunction
 
 function! SlimeFooPluginValidateEnv()
-"    let textFiles = glob('./*.txt')
-"    if textFiles == ''
-"        echo "No text files in current directory."
-		echom "in validating env"
-         return 0
-"    else
-"        return 1
-"    endif
+    let textFiles = glob('./*.txt')
+    if textFiles == ''
+        echo "No text files in current directory."
+   	echom "in validating env"
+        return 0
+    else
+        return 1
+    endif
 endfunction
 
 
