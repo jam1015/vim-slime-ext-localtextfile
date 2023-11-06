@@ -39,3 +39,9 @@ let g:slime_target_send="SlimeFooPluginSend"
 let g:slime_target_config="SlimeFooPluginConfig"
 let g:slime_validate_env="SlimeFooPluginValidateEnv"
 let g:slime_validate_config="SlimeFooPluginValidateConfig"
+
+
+
+map gz <Plug>SlimeMotionSend
+map gzz <Plug>SlimeLineSend
+xmap gz <Plug>SlimeRegionSend
