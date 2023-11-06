@@ -11,7 +11,6 @@ function! SlimeFooPluginValidateEnv()
     let textFiles = glob('./*.txt')
     if textFiles == ''
         echo "No text files in current directory."
-   	echom "in validating env"
         return 0
     else
         return 1
@@ -23,7 +22,7 @@ function! SlimeFooPluginValidateConfig(config)
     if filereadable(a:config["foo"]["file"])
         return 1
     else
-        echom "Config invalid. File does not exist. Use :SlimeConfig to Reconfigure."
+        echom "File does not exist. Config invalid. Use :SlimeConfig to Reconfigure."
         return 0
     endif
 endfunction
