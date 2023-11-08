@@ -7,4 +7,5 @@ Done as an implementation of the example plugin in the documentation and `README
 
 This plugin maps functions and chooses the target automatically. For an actual plugin you might chose to let the user make their own mappings.
 
+This plugin maps functions and chooses the target automatically. For an actual plugin you might choose to let the user make their own mappings.
 Also see the `no_validation` branch for a version of this plugin that doesn't define the validation branches.
