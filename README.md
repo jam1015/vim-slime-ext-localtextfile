@@ -6,3 +6,6 @@ Done as an implementation of the example plugin in the documentation and `README
 
 
 This plugin maps functions and chooses the target automatically. For an actual plugin you might chose to let the user make their own mappings.
+
+
+This branch does not include the validation functions, for testing purposes.
